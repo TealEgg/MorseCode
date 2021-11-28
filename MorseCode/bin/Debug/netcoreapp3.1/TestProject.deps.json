@@ -1,0 +1,133 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TestProject/1.0.0": {
+        "dependencies": {
+          "PInvoke.User32": "0.7.104"
+        },
+        "runtime": {
+          "TestProject.dll": {}
+        }
+      },
+      "PInvoke.Kernel32/0.7.104": {
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.104",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.104.53878"
+          }
+        }
+      },
+      "PInvoke.User32/0.7.104": {
+        "dependencies": {
+          "PInvoke.Kernel32": "0.7.104",
+          "PInvoke.Windows.Core": "0.7.104",
+          "PInvoke.Windows.ShellScalingApi": "0.7.104",
+          "Validation": "2.4.15"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.104.53878"
+          }
+        }
+      },
+      "PInvoke.Windows.Core/0.7.104": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.104.53878"
+          }
+        }
+      },
+      "PInvoke.Windows.ShellScalingApi/0.7.104": {
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.104"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.104.53878"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Threading.Tasks.Extensions/4.5.4": {},
+      "Validation/2.4.15": {
+        "runtime": {
+          "lib/netstandard1.3/Validation.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.15.30595"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PInvoke.Kernel32/0.7.104": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xU9Wp22ej6NcVg4Uqelnhz27X6HdHaroAPOk5IsG8nTi82zHOznTOW2KIYCdpAGf67rHpQW6UtmjrG+5HPlnvA==",
+      "path": "pinvoke.kernel32/0.7.104",
+      "hashPath": "pinvoke.kernel32.0.7.104.nupkg.sha512"
+    },
+    "PInvoke.User32/0.7.104": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MPJICVOtkCCuLY0hbu7tgBFE3S3WHVrym5ZF2NjGAMluhKdkWFSIOi+wadnMwX2PI7nhCQ4bPK/REKZtfYdgaQ==",
+      "path": "pinvoke.user32/0.7.104",
+      "hashPath": "pinvoke.user32.0.7.104.nupkg.sha512"
+    },
+    "PInvoke.Windows.Core/0.7.104": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WI8ht+k0nk7YmeWD6OewGI+TzRdgtJSaO+e+PMPeYSBVwU9jl4ZlelizZNz271ZY4k4J8lk+mTWg5bo+I71mTA==",
+      "path": "pinvoke.windows.core/0.7.104",
+      "hashPath": "pinvoke.windows.core.0.7.104.nupkg.sha512"
+    },
+    "PInvoke.Windows.ShellScalingApi/0.7.104": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rgCP4i9U6oEHlBY1uOGEuw+aaS5U9zfNMs1Vj6dlgCgW5Rq1fazENQuAvf6GCHSAl4Cann4A90z+fCcXbwLqtg==",
+      "path": "pinvoke.windows.shellscalingapi/0.7.104",
+      "hashPath": "pinvoke.windows.shellscalingapi.0.7.104.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "Validation/2.4.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KQFOtJKKhaXzuSiZhkFaFzQEdYsA+EN/XqKZDYwsGDOrS0Nxu6qzCvNTsDF4xtkiZbBA6u7I59QnsuP2O2fZgg==",
+      "path": "validation/2.4.15",
+      "hashPath": "validation.2.4.15.nupkg.sha512"
+    }
+  }
+}
